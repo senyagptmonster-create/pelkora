@@ -1,0 +1,31 @@
+{
+  "reservoirs": [
+    {
+      "name": "Monstera Tank",
+      "level": 25,
+      "nextRefill": "Tomorrow"
+    },
+    {
+      "name": "Ficus Tub",
+      "level": 80,
+      "nextRefill": "Next Week"
+    }
+  ],
+  "logs": [
+    {
+      "plant": "Monstera Tank",
+      "date": "2023-10-01T08:00:00Z",
+      "moisture": 45
+    }
+  ],
+  "tips": [
+    {
+      "species": "Monstera Deliciosa",
+      "tip": "Likes bright, indirect light. Keep soil slightly moist but never soggy."
+    },
+    {
+      "species": "Ficus Lyrata",
+      "tip": "Needs stable environment, hates drafts. Water thoroughly when top soil is dry."
+    }
+  ]
+}
