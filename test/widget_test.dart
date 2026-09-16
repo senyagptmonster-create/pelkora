@@ -4,7 +4,7 @@ import 'package:pelkora/pelkora_app.dart';
 void main() {
   testWidgets('PelkoraApp smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const PelkoraApp());
-    await tester.pump();
-    expect(find.text('Reservoirs'), findsWidgets);
+    expect(find.text('Reservoir Status Gauge'), findsWidgets);
+    expect(find.text('REFILL TO MAXIMUM (100%)'), findsOneWidget);
   });
 }
